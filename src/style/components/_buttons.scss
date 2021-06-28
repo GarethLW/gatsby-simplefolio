@@ -23,6 +23,8 @@
 
 /* Hero Style */
 .cta-btn--hero {
+  font-weight:bold;
+  margin-right: 5px;
   background-image: linear-gradient(135deg, $primary-color 0%, $secondary-color 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -59,6 +61,55 @@
     }
   }
 }
+
+.cta-btn-Res {
+  margin-left: 10px;
+  font-weight:bold;
+  margin-right: 5px;
+  background-image: linear-gradient($dark-blue-text, $dark-blue-text);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border-width: 2px;
+  border-style: solid;
+  border-image: linear-gradient($dark-blue-text, $dark-blue-text);
+  border-image-slice: 1;
+  cursor: pointer;
+  // Responsive Button hero style
+  @include respond(phone) {
+    background-image: none;
+    border: 2px solid $secondary-color;
+    -webkit-text-fill-color: $secondary-color;
+  }
+
+  &::after {
+    background-image: linear-gradient($dark-blue-text, $dark-blue-text);
+    // Responsive Button hero style
+    @include respond(phone) {
+      background-image: none;
+    }
+  }
+
+  &:hover {
+    -webkit-text-fill-color: $white-color;
+    text-decoration: none;
+    // Responsive Button hover hero style
+    @include respond(phone) {
+      -webkit-text-fill-color: $secondary-color;
+    }
+
+    &::after {
+      width: 100%;
+    }
+  }
+}
+
+a {
+  color: $white-color
+}
+a:hover {
+  color: $white-color;
+}
+
 
 /* Resume Style */
 .cta-btn--resume {
