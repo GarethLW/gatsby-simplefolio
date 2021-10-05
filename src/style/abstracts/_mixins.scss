@@ -12,6 +12,15 @@
 ORDER: Base + Typography > Generar Layout + Grid > Page Layout > Components
 
 */
+@mixin hideIt($breakpoint) {
+  @if $breakpoint == phone {
+    @media (visibility: hidden) {
+      @content;
+    }
+  }
+}
+
+
 @mixin respond($breakpoint) {
   // Phone-xs
   @if $breakpoint == phone-xs {

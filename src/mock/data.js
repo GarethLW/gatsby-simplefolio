@@ -28,12 +28,12 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'movie-app.jpg',
+    title: 'Movie Browser',
+    info: 'This is a movie app that lets you search for movies and choose your favourites. It is built with React and hosted on Vercel.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://movie-app-alpha-blush.vercel.app/',
+    repo: 'https://github.com/GarethLW/movie-app', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
