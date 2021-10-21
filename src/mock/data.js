@@ -17,7 +17,7 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profi.jpg',
+  img: 'profile.jpg',
   paragraphOne:
     "Gareth is a graduate from the University of Manitoba with a Bachelor's of Science in Computer Science.",
   paragraphTwo:
