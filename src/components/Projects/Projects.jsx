@@ -28,7 +28,7 @@ const Projects = () => {
         <div className="project-wrapper">
           <Title title="Projects" />
           {projects.map((project) => {
-            const { title, info, info2, url, repo, img, id } = project;
+            const { title, info, info2, info2List, url, repo, img, id } = project;
 
             return (
               <Row key={id}>
@@ -47,7 +47,12 @@ const Projects = () => {
                           {info ||
                             'This is a movie app that lets you search for movies and choose your favourites. It is built with React and hosted on Vercel.'}
                         </p>
-                        <p className="mb-4">{info2 || ''}</p>
+                        <p className="">{info2 || ''}</p>
+                        <ul className="project-wrapper__text mb-4">
+                          {info2List.map((listItem) => {
+                            return <li key={listItem}>{listItem}</li>;
+                          })}
+                        </ul>
                       </div>
                       <a
                         target="_blank"

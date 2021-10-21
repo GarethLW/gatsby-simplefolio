@@ -8,7 +8,7 @@ const ResumePage = () => {
     <main>
       <StaticImage
         alt="Clifford, a reddish-brown pitbull, posing on a couch and looking stoically at the camera"
-        src="resume.jpg"
+        src="../images/resume.jpg"
       />
     </main>
   );
