@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne:
     "Gareth is a graduate from the University of Manitoba with a Bachelor's of Science in Computer Science.",
   paragraphTwo:
-    " His ability to work in groups was proven at university when he joined a team of 8 to develop a React applicaiton for Winnipeg. He has demonstrated his passion for tackling hard problems by placing 3rd in Canada in the global IEEE programming competition. Gareth's dedication to his area was shown when he took every undergraduate computer science class available until he hit the maximum he was permitted to take.",
+    "Gareth's dedication to his area was shown through taking every undergraduate computer science class available until he hit the maximum he was permitted to take. His ability to work in groups and passion for tackling hard problems was proven at university by placing 3rd in Canada in the global IEEE annual programming competition.",
   paragraphThree:
     "Gareth's combination of teamwork ability, passion, and dedication make him a valuable member of any team. ",
   resume: 'index.js', // if no resume, the button will not show up
