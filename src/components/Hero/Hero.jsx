@@ -38,10 +38,10 @@ const Header = () => {
               options={{
                 strings: [
                   'Backend Developer',
+                  'Software Engineer',
                   'C# Programmer',
                   'Wizard of the screen',
                   'Master of the digital realm',
-                  'Nerd',
                 ],
                 autoStart: true,
                 loop: true,
@@ -50,8 +50,8 @@ const Header = () => {
                 cursorClassName: 'typerSC',
                 cursor: '_',
                 pauseFor: 3000,
-                delay: 40,
-                deleteSpeed: 30,
+                delay: 90,
+                deleteSpeed: 40,
               }}
             />
           </h1>
