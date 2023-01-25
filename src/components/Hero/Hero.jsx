@@ -2,11 +2,12 @@ import React, { useContext, useState, useEffect } from 'react';
 import { Container } from 'react-bootstrap';
 import Fade from 'react-reveal/Fade';
 import { Link } from 'react-scroll';
+import Typewriter from 'typewriter-effect';
 import PortfolioContext from '../../context/context';
 
 const Header = () => {
   const { hero } = useContext(PortfolioContext);
-  const { title, name, subtitle, cta } = hero;
+  const { title, name, cta } = hero;
 
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -24,14 +25,35 @@ const Header = () => {
   return (
     // className={`${isMounted ? 'jumbotron' : ''}`}
     // <section id="hero" className="jumbotron">
+
     <section id="hero" className="jumbotron">
       <Container>
         <Fade left={isDesktop} bottom={isMobile} duration={1300} delay={800} distance="30px">
           <h1 className="hero-title">
             {title || 'Hi, my name is'}{' '}
-            <span className="text-color-main">{name || 'Your Name'}</span>
+            {<span className="text-color-main">{name || 'Your Name'}</span>}
             <br />
-            {subtitle || "I'm the Unknown Developer."}
+            {/* {subtitle || "I'm the Unknown Developer."} */}
+            <Typewriter
+              options={{
+                strings: [
+                  'Backend Developer',
+                  'C# Programmer',
+                  'Wizard of the screen',
+                  'Master of the digital realm',
+                  'Nerd',
+                ],
+                autoStart: true,
+                loop: true,
+                skipAddStyles: false,
+                wrapperClassName: 'typerS',
+                cursorClassName: 'typerSC',
+                cursor: '_',
+                pauseFor: 3000,
+                delay: 40,
+                deleteSpeed: 30,
+              }}
+            />
           </h1>
         </Fade>
         <Fade left={isDesktop} bottom={isMobile} duration={1500} delay={1500} distance="30px">

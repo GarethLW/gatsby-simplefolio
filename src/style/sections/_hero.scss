@@ -26,6 +26,41 @@
     padding: 0rem $default-font-size;
   }
 
+  .typerS {
+    font-size: 5.6rem;
+    color: $primary-color;
+
+    @include respond(phone) {
+      font-size: 3rem;
+    }
+   
+  }
+
+  .typerSC {
+    font-size: 5.6rem;
+    animation: animate 1s linear infinite;
+
+    @include respond(phone) {
+      font-size: 3rem;
+    }
+   } 
+    
+   @keyframes animate{
+     0%{
+       opacity: 0;
+     }
+     49%{
+       opacity: 0;
+     }
+     50%{
+       opacity: 1;
+     }
+     100%{
+       opacity: 1;
+     }
+   }
+
+
   .hero-title {
     font-size: 5.6rem;
     font-weight: 700;

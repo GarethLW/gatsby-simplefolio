@@ -1,4 +1,37 @@
 #about {
+
+  .typerS {
+    font-size: 2.6rem;
+    color: $white-color;
+
+  }
+
+  .typerSC {
+    font-size: 2.6rem;
+    animation: animate 1s linear infinite;
+
+   } 
+    
+   @keyframes animate{
+     0%{
+       opacity: 0;
+     }
+     5%{
+       opacity: 1;
+     }
+     94%{
+       opacity: 1;
+     }
+     95%{
+       opacity: 0;
+     }
+     100%{
+       opacity: 0;
+     }
+   }
+
+
+
   background-color: $dark-brown;
   color: $white-color;
   height: 100%;
@@ -17,6 +50,13 @@
     @include respond(phone) {
       padding-bottom: 5rem;
     }
+
+
+
+
+
+
+
 
     &__image {
       display: flex;
