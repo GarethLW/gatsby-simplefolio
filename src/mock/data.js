@@ -19,11 +19,10 @@ export const heroData = {
 export const aboutData = {
   img: 'profile3.jpg',
   paragraphOne:
-    "Gareth is a programmer at Manitoba Public Insurance and graduate from the University of Manitoba with a Bachelor's of Science in Computer Science.",
+    "I have a Bachelor's of Science in Computer Science from the University of Manitoba and currently work as a developer for Manitoba Public Insurance.",
   paragraphTwo:
-    'In university, he was involved in many projects where he learned to work with a diverse group of people. He also attended events and demonstrated his passion for computer science when he participated in the global IEEE competition and placed 3rd in Canada out of 56 teams. Working at Manitoba Public Insurance as a Programmer, Gareth gained industry-related experience on real systems as part of the Application Services team. While working for MPI, Gareth became a Certified SAFe 5 Practitioner by completing the Scaled Agile Framework exam.',
-  paragraphThree:
-    "Gareth's combination of teamwork ability, passion, and dedication make him a valuable member of any team. ",
+    'I have been part of the insurance team for some time, providing maintenance, on-call assistance, and developing integrations for a new project',
+  paragraphThree: 'In my free moments, I find Improv to be a favorite pastime.',
 
   resume: 'index.js', // if no resume, the button will not show up
 };
