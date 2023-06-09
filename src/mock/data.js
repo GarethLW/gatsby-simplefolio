@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne:
     "I have a Bachelor's of Science in Computer Science from the University of Manitoba and currently work as a developer for Manitoba Public Insurance.",
   paragraphTwo:
-    'I have been part of the insurance team for some time, providing maintenance, on-call assistance, and developing integrations for a new project',
+    'I have been part of the insurance team in the Software Development and Operations Department for some time, providing maintenance, on-call assistance, and developing webservices',
   paragraphThree: 'In my free moments, I find Improv to be a favorite pastime.',
 
   resume: 'index.js', // if no resume, the button will not show up
